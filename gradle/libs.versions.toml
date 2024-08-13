@@ -1,0 +1,11 @@
+[versions]
+mc-commons = "1.0.0"
+
+[libraries]
+mc-commons-common = { module = "com.voxelations:mc-commons-common", version.ref = "mc-commons" }
+mc-commons-paper = { module = "com.voxelations:mc-commons-paper", version.ref = "mc-commons" }
+
+[plugins]
+mc-commons-gradle-jvm-conventions = { id = "com.voxelations.common.gradle.jvm-conventions", version.ref = "mc-commons" }
+mc-commons-gradle-publishing-conventions = { id = "com.voxelations.common.gradle.publishing-conventions", version.ref = "mc-commons" }
+mc-commons-gradle-paper-conventions = { id = "com.voxelations.common.gradle.paper-conventions", version.ref = "mc-commons" }
